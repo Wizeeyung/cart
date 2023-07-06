@@ -27,6 +27,10 @@
   justify-content: space-between;
 }
 
+ul.product-container{
+  padding-left: 0;
+}
+
 
 footer{
   display: flex;
@@ -37,4 +41,13 @@ footer{
   background-color: rgb(60, 60, 60);
   color: white;
   /* background: linear-gradient(rgb(213, 207,207), #fcc3c3); */
+}
+
+
+
+/* responsivenes */
+@media all and (max-width: 400px) {
+  .product-container{
+    justify-content: center;
+  }
 }
